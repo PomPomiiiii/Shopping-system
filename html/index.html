@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - FashionStore Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FashionStore
+  * Template URL: https://bootstrapmade.com/fashion-store-bootstrap-template/
+  * Updated: Apr 26 2025 with Bootstrap v5.3.5
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header position-relative">
+    
+  
+
+    <!-- Main Header -->
+    <div class="main-header">
+      <div class="container-fluid container-xl">
+        <div class="d-flex py-3 align-items-center justify-content-between">
+
+          <!-- Logo -->
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.webp" alt=""> -->
+            <h1 class="sitename">Fashion<span>Store</span></h1>
+          </a>
+
+          <!-- Search -->
+          <form class="search-form desktop-search-form">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for products...">
+              <button class="btn search-btn" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </form>
+
+          <!-- Actions -->
+          <div class="header-actions d-flex align-items-center justify-content-end">
+
+            <!-- Mobile Search Toggle -->
+            <button class="header-action-btn mobile-search-toggle d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+              <i class="bi bi-search"></i>
+            </button>
+
+            <!-- Account -->
+            <div class="dropdown account-dropdown">
+              <button class="header-action-btn" data-bs-toggle="dropdown">
+                <i class="bi bi-person"></i>
+                <span class="action-text d-none d-md-inline-block">Account</span>
+              </button>
+              <div class="dropdown-menu">
+                <div class="dropdown-header">
+                  <h6>Welcome to <span class="sitename">FashionStore</span></h6>
+                  <p class="mb-0">Access account &amp; manage orders</p>
+                </div>
+                <div class="dropdown-body">
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-person-circle me-2"></i>
+                    <span>My Profile</span>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="orders.html">
+                    <i class="bi bi-bag-check me-2"></i>
+                    <span>My Orders</span>
+                  </a>
+                  
+                
+                </div>
+                <div class="dropdown-footer">
+                  <a href="login.html" class="btn btn-primary w-100 mb-2">Sign In</a>
+                  <a href="register.html" class="btn btn-outline-primary w-100">Register</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cart -->
+            <div class="dropdown cart-dropdown">
+              <button class="header-action-btn" data-bs-toggle="dropdown">
+                <i class="bi bi-cart3"></i>
+                <span class="action-text d-none d-md-inline-block">Cart</span>
+                <span class="badge">3</span>
+              </button>
+              <div class="dropdown-menu cart-dropdown-menu">
+                <div class="dropdown-header">
+                  <h6>Shopping Cart (3)</h6>
+                </div>
+                <div class="dropdown-body">
+                  <div class="cart-items">
+                    <!-- Cart Item 1 -->
+                    <div class="cart-item">
+                      <div class="cart-item-image">
+                        <img src="assets/img/product/product-1.webp" alt="Product" class="img-fluid">
+                      </div>
+                      <div class="cart-item-content">
+                        <h6 class="cart-item-title">Wireless Headphones</h6>
+                        <div class="cart-item-meta">1 × $89.99</div>
+                      </div>
+                      <button class="cart-item-remove">
+                        <i class="bi bi-x"></i>
+                      </button>
+                    </div>
+
+                    <!-- Cart Item 2 -->
+                    <div class="cart-item">
+                      <div class="cart-item-image">
+                        <img src="assets/img/product/product-2.webp" alt="Product" class="img-fluid">
+                      </div>
+                      <div class="cart-item-content">
+                        <h6 class="cart-item-title">Smart Watch</h6>
+                        <div class="cart-item-meta">1 × $129.99</div>
+                      </div>
+                      <button class="cart-item-remove">
+                        <i class="bi bi-x"></i>
+                      </button>
+                    </div>
+
+                    <!-- Cart Item 3 -->
+                    <div class="cart-item">
+                      <div class="cart-item-image">
+                        <img src="assets/img/product/product-3.webp" alt="Product" class="img-fluid">
+                      </div>
+                      <div class="cart-item-content">
+                        <h6 class="cart-item-title">Bluetooth Speaker</h6>
+                        <div class="cart-item-meta">1 × $59.99</div>
+                      </div>
+                      <button class="cart-item-remove">
+                        <i class="bi bi-x"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-footer">
+                  <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="cart-total-price">$279.97</span>
+                  </div>
+                  <div class="cart-actions">
+                    <a href="cart.html" class="btn btn-outline-primary">View Cart</a>
+                    <a href="checkout.html" class="btn btn-primary">Checkout</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mobile Navigation Toggle -->
+            <i class="mobile-nav-toggle d-xl-none bi bi-list me-0"></i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="header-nav">
+      <div class="container-fluid container-xl position-relative">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            
+            
+            
+            
+           
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    
+
+    <!-- Mobile Search Form -->
+    <div class="collapse" id="mobileSearch">
+      <div class="container">
+        <form class="search-form">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for products...">
+            <button class="btn search-btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section class="ecommerce-hero-2 hero section" id="hero">
+      <div class="container">
+        <div class="hero-slider swiper init-swiper" data-aos="fade-up">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoplay": {
+                "delay": 5000
+              },
+              "effect": "fade",
+              "fadeEffect": {
+                "crossFade": true
+              },
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <!-- New Collection Slide -->
+            <div class="swiper-slide slide-new">
+              <div class="row align-items-center">
+                <div class="col-lg-6 content-col" data-aos="fade-right" data-aos-delay="100">
+                  <div class="slide-content">
+                    <span class="slide-badge">New Arrivals</span>
+                    <h1>Discover Our <span>Latest</span> Collection Of Phones</h1>
+                    <p>iPhones are smartphones by Apple known for their sleek design, strong security, and smooth performance. They run on iOS and are popular for features like Face ID, great cameras, and regular updates.</p>
+                    
+                  </div>
+                </div>
+                <div class="col-lg-6 image-col" data-aos="fade-left" data-aos-delay="200">
+                  <div class="product-showcase">
+                    <div class="product-grid">
+                      <div class="product-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="product-image">
+                          <img src="assets/img/iphone img/iphone15-variant.png" alt="New Product 1">
+                        </div>
+                        <div class="product-info">
+                          <h4>Iphone 15</h4>
+                          <span class="price">₱38,990.00</span>
+                        </div>
+                      </div>
+                      <div class="product-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="product-image">
+                          <img src="assets/img/iphone img/iphone16-variant.png" alt="New Product 2">
+                        </div>
+                        <div class="product-info">
+                          <h4>Iphone 16</h4>
+                          <span class="price">₱45,990.00</span>
+                        </div>
+                      </div>
+                      <div class="product-item" data-aos="fade-up" data-aos-delay="500">
+                        <div class="product-image">
+                          <img src="assets/img/iphone img/iphone12promax-variant.png" alt="New Product 3">
+                        </div>
+                        <div class="product-info">
+                          <h4>Iphone 12 Pro Max</h4>
+                          <span class="price">₱32,079.90</span>
+                        </div>
+                      </div>
+                      <div class="product-item" data-aos="fade-up" data-aos-delay="600">
+                        <div class="product-image">
+                          <img src="assets/img/iphone img/iphone 16pro-variant.png" alt="New Product 4">
+                        </div>
+                        <div class="product-info">
+                          <h4>Iphone 16 Pro</h4>
+                          <span class="price">₱51,990.00</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sale Products Slide -->
+            <div class="swiper-slide slide-sale">
+              <div class="row align-items-center">
+                <div class="col-lg-6 content-col" data-aos="fade-right" data-aos-delay="100">
+                  <div class="slide-content">
+                    <span class="slide-badge">Limited Time</span>
+                    <h1>Season <span>Sale</span> Up To 15% Off</h1>
+                    <p>The Samsung Galaxy Z Flip is a foldable smartphone with a compact flip design. 
+                      It features a 6.7-inch AMOLED display, powerful cameras, and modern features like AI tools and water resistance. 
+                      It's stylish, portable, and designed for innovation on the go.</p>
+                    
+                    <div class="countdown-container">
+                      <div class="countdown-label">Offer ends in:</div>
+                      <div class="countdown d-flex" data-count="2025/6/15">
+                        <div>
+                          <h3 class="count-days"></h3>
+                          <h4>Days</h4>
+                        </div>
+                        <div>
+                          <h3 class="count-hours"></h3>
+                          <h4>Hours</h4>
+                        </div>
+                        <div>
+                          <h3 class="count-minutes"></h3>
+                          <h4>Minutes</h4>
+                        </div>
+                        <div>
+                          <h3 class="count-seconds"></h3>
+                          <h4>Seconds</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 image-col" data-aos="fade-left" data-aos-delay="200">
+                  <div class="sale-showcase">
+                    <div class="main-product">
+                      <img src="assets/img/iphone img/samsung z flip.png" alt="Sale Product">
+                      <div class="discount-badge">
+                        <span class="percent">15%</span>
+                        <span class="text">OFF</span>
+                      </div>
+                    </div>
+                    <div class="floating-tag" data-aos="zoom-in" data-aos-delay="300">
+                      <div class="tag-content">
+                        <span class="tag-label">Best Seller</span>
+                        <span class="tag-price">
+                          <span class="old-price">₱56,399.00</span>
+                          <span class="new-price">₱47,939.15</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- Promo Cards Section -->
+    <section id="promo-cards" class="promo-cards section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+          <!-- Promo Card 1 -->
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="promo-card card-1">
+              <div class="promo-content">
+                <p class="small-text">Tablets</p>
+                <h3 class="promo-title">Ipad Pro</h3>
+                <p class="promo-description">Most powerful tablet, featuring a sleek design, advanced M-series chip, 
+                                            and a high-refresh-rate Liquid Retina display for pro-level performance.</p>
+                <a href="#" class="btn-shop">Shop Now</a>
+              </div>
+              <div class="promo-image">
+                <img src="assets/img/iphone img/ipad pro 11.png" alt="Product" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <!-- Promo Card 2 -->
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="promo-card card-2">
+              <div class="promo-content">
+                <p class="small-text">Laptops</p>
+                <h3 class="promo-title">MacBook</h3>
+                <p class="promo-description">The MacBook is Apple’s line of sleek, high-performance laptops known for their long battery life, 
+                  Retina display, and smooth macOS experience.</p>
+                <a href="#" class="btn-shop">Shop Now</a>
+              </div>
+              <div class="promo-image">
+                <img src="assets/img/iphone img/mac book.png" alt="Product" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <!-- Promo Card 3 -->
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="promo-card card-3">
+              <div class="promo-content">
+                <p class="small-text">Earpods</p>
+                <h3 class="promo-title">AirPods Pro</h3>
+                <p class="promo-description">AirPods are Apple’s wireless earbuds, offering high-quality sound, easy pairing with Apple devices, 
+                  and features like noise cancellation and touch controls.</p>
+                <a href="#" class="btn-shop">Shop Now</a>
+              </div>
+              <div class="promo-image">
+                <img src="assets/img/iphone img/Airpods.png" alt="Product" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <!-- Promo Card 4 -->
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="promo-card card-4">
+              <div class="promo-content">
+                <p class="small-text">Watches</p>
+                <h3 class="promo-title">Apple Watch</h3>
+                <p class="promo-description">The Apple Watch is a smart wearable that tracks fitness, monitors health, and keeps you connected with calls, 
+                  messages, and apps right from your wrist.</p>
+                <a href="#" class="btn-shop">Shop Now</a>
+              </div>
+              <div class="promo-image">
+                <img src="assets/img/iphone img/apple watch.png" alt="Product" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Promo Cards Section -->
+
+    <!-- Category Cards Section -->
+   
+
+    <!-- Best Sellers Section -->
+    <section id="best-sellers" class="best-sellers section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Best Sellers</h2>
+        <p> Unmatched performance, stunning design — the device everyone’s talking about!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+          <!-- Product 1 -->
+          <div class="col-6 col-lg-3">
+            <div class="product-card" data-aos="zoom-in">
+              <div class="product-image">
+                <img src="assets/img/iphone img/samsung s24 ultra-variant.png" class="main-image img-fluid" alt="Product">
+                <img src="assets/img/iphone img/samsung s24 ultra.png" class="hover-image img-fluid" alt="Product Variant">
+                <div class="product-overlay">
+                  <div class="product-actions">
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Quick View">
+                      <i class="bi bi-eye"></i>
+                    </button>
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Add to Cart">
+                      <i class="bi bi-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-details">
+                <div class="product-category">Phone</div>
+                <h4 class="product-title"><a href="product-details.html">Samsung s24 Ultra</a></h4>
+                <div class="product-meta">
+                  <div class="product-price">₱84,990.00</div>
+                  <div class="product-rating">
+                    <i class="bi bi-star-fill"></i>
+                    4.8 <span>(42)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-6 col-lg-3">
+            <div class="product-card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="product-image">
+                <img src="assets/img/iphone img/iphone16.png" class="main-image img-fluid" alt="Product">
+                <img src="assets/img/iphone img/iphone16-variant.png" class="hover-image img-fluid" alt="Product Variant">
+                <div class="product-overlay">
+                  <div class="product-actions">
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Quick View">
+                      <i class="bi bi-eye"></i>
+                    </button>
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Add to Cart">
+                      <i class="bi bi-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-badge new">New</div>
+              </div>
+              <div class="product-details">
+                <div class="product-category">Phone</div>
+                <h4 class="product-title"><a href="product-details.html">Iphone 16</a></h4>
+                <div class="product-meta">
+                  <div class="product-price">₱45,990.00</div>
+                  <div class="product-rating">
+                    <i class="bi bi-star-fill"></i>
+                    4.6 <span>(28)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="col-6 col-lg-3">
+            <div class="product-card" data-aos="zoom-in" data-aos-delay="200">
+              <div class="product-image">
+                <img src="assets/img/iphone img/iphone16pro.png" class="main-image img-fluid" alt="Product">
+                <img src="assets/img/iphone img/iphone 16pro-variant.png" class="hover-image img-fluid" alt="Product Variant">
+                <div class="product-overlay">
+                  <div class="product-actions">
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Quick View">
+                      <i class="bi bi-eye"></i>
+                    </button>
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Add to Cart">
+                      <i class="bi bi-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="product-details">
+                <div class="product-category">Phone</div>
+                <h4 class="product-title"><a href="product-details.html">Iphone 16 Pro</a></h4>
+                <div class="product-meta">
+                  <div class="product-price">
+                    ₱60,990.00
+                
+                  </div>
+                  <div class="product-rating">
+                    <i class="bi bi-star-fill"></i>
+                    4.9 <span>(56)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="col-6 col-lg-3">
+            <div class="product-card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="product-image">
+                <img src="assets/img/iphone img/samsung z flip.png" class="main-image img-fluid" alt="Product">
+                <img src="assets/img/iphone img/samsung z flip-variant.png" class="hover-image img-fluid" alt="Product Variant">
+                <div class="product-overlay">
+                  <div class="product-actions">
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Quick View">
+                      <i class="bi bi-eye"></i>
+                    </button>
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Add to Cart">
+                      <i class="bi bi-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-details">
+                <div class="product-category">Phone</div>
+                <h4 class="product-title"><a href="product-details.html">Samsung Galaxy Z Flip</a></h4>
+                <div class="product-meta">
+                  <div class="product-price">₱47,939.15</div>
+                  <div class="product-rating">
+                    <i class="bi bi-star-fill"></i>
+                    4.7 <span>(35)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="col-6 col-lg-3">
+            <div class="product-card" data-aos="zoom-in" data-aos-delay="400">
+              <div class="product-image">
+                <img src="assets/img/iphone img/apple headphones.png" class="main-image img-fluid" alt="Product">
+                <img src="assets/img/iphone img/apple headphones-varient.png" class="hover-image img-fluid" alt="Product Variant">
+                <div class="product-overlay">
+                  <div class="product-actions">
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Quick View">
+                      <i class="bi bi-eye"></i>
+                    </button>
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Add to Cart">
+                      <i class="bi bi-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-details">
+                <div class="product-category">Headphones</div>
+                <h4 class="product-title"><a href="product-details.html">AirPod pro max</a></h4>
+                <div class="product-meta">
+                  <div class="product-price">₱32,990.00</div>
+                  <div class="product-rating">
+                    <i class="bi bi-star-fill"></i>
+                    4.5 <span>(23)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 6 -->
+          <div class="col-6 col-lg-3">
+            <div class="product-card" data-aos="zoom-in" data-aos-delay="500">
+              <div class="product-image">
+                <img src="assets/img/iphone img/Airpods.png" class="main-image img-fluid" alt="Product">
+                <img src="assets/img/iphone img/airpods-varient.png" class="hover-image img-fluid" alt="Product Variant">
+                <div class="product-overlay">
+                  <div class="product-actions">
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Quick View">
+                      <i class="bi bi-eye"></i>
+                    </button>
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Add to Cart">
+                      <i class="bi bi-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="product-details">
+                <div class="product-category">Earpods</div>
+                <h4 class="product-title"><a href="product-details.html">Apple AirPods 4th Gen</a></h4>
+                <div class="product-meta">
+                  <div class="product-price">
+                    $110.00
+                    <span class="original-price">₱8,490.00 </span>
+                  </div>
+                  <div class="product-rating">
+                    <i class="bi bi-star-fill"></i>
+                    4.8 <span>(47)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 7 -->
+          <div class="col-6 col-lg-3">
+            <div class="product-card" data-aos="zoom-in" data-aos-delay="600">
+              <div class="product-image">
+                <img src="assets/img/iphone img/iphone12.png" class="main-image img-fluid" alt="Product">
+                <img src="assets/img/iphone img/iphone12-variant.png" class="hover-image img-fluid" alt="Product Variant">
+                <div class="product-overlay">
+                  <div class="product-actions">
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Quick View">
+                      <i class="bi bi-eye"></i>
+                    </button>
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Add to Cart">
+                      <i class="bi bi-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="product-details">
+                <div class="product-category">Phones</div>
+                <h4 class="product-title"><a href="product-details.html">Iphone 12</a></h4>
+                <div class="product-meta">
+                  <div class="product-price">₱30,119.90</div>
+                  <div class="product-rating">
+                    <i class="bi bi-star-fill"></i>
+                    4.6 <span>(31)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 8 -->
+          <div class="col-6 col-lg-3">
+            <div class="product-card" data-aos="zoom-in" data-aos-delay="700">
+              <div class="product-image">
+                <img src="assets/img/iphone img/iphone12promax.png" class="main-image img-fluid" alt="Product">
+                <img src="assets/img/iphone img/iphone12promax-variant.png" class="hover-image img-fluid" alt="Product Variant">
+                <div class="product-overlay">
+                  <div class="product-actions">
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Quick View">
+                      <i class="bi bi-eye"></i>
+                    </button>
+                    <button type="button" class="action-btn" data-bs-toggle="tooltip" title="Add to Cart">
+                      <i class="bi bi-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="product-details">
+                <div class="product-category">Phone</div>
+                <h4 class="product-title"><a href="product-details.html">Iphone 12 Pro Max</a></h4>
+                <div class="product-meta">
+                  <div class="product-price">₱32,079.90</div>
+                  <div class="product-rating">
+                    <i class="bi bi-star-fill"></i>
+                    4.7 <span>(39)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Best Sellers Section -->
+
+    <!-- Product List Section -->
+   
+
+  </main>
+
+  
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

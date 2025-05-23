@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>About - FashionStore Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FashionStore
+  * Template URL: https://bootstrapmade.com/fashion-store-bootstrap-template/
+  * Updated: Apr 26 2025 with Bootstrap v5.3.5
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header position-relative">
+    <!-- Top Bar -->
+    
+    <!-- Main Header -->
+    <div class="main-header">
+      <div class="container-fluid container-xl">
+        <div class="d-flex py-3 align-items-center justify-content-between">
+
+          <!-- Logo -->
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.webp" alt=""> -->
+            <h1 class="sitename">Fashion<span>Store</span></h1>
+          </a>
+
+          <!-- Search -->
+          <form class="search-form desktop-search-form">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for products...">
+              <button class="btn search-btn" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </form>
+
+          <!-- Actions -->
+          <div class="header-actions d-flex align-items-center justify-content-end">
+
+            <!-- Mobile Search Toggle -->
+            <button class="header-action-btn mobile-search-toggle d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+              <i class="bi bi-search"></i>
+            </button>
+
+            <!-- Account -->
+            <div class="dropdown account-dropdown">
+              <button class="header-action-btn" data-bs-toggle="dropdown">
+                <i class="bi bi-person"></i>
+                <span class="action-text d-none d-md-inline-block">Account</span>
+              </button>
+              <div class="dropdown-menu">
+                <div class="dropdown-header">
+                  <h6>Welcome to <span class="sitename">FashionStore</span></h6>
+                  <p class="mb-0">Access account &amp; manage orders</p>
+                </div>
+                <div class="dropdown-body">
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-person-circle me-2"></i>
+                    <span>My Profile</span>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="orders.html">
+                    <i class="bi bi-bag-check me-2"></i>
+                    <span>My Orders</span>
+                  </a>
+                  
+                </div>
+                <div class="dropdown-footer">
+                  <a href="login.html" class="btn btn-primary w-100 mb-2">Sign In</a>
+                  <a href="register.html" class="btn btn-outline-primary w-100">Register</a>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <!-- Cart -->
+            <div class="dropdown cart-dropdown">
+              <button class="header-action-btn" data-bs-toggle="dropdown">
+                <i class="bi bi-cart3"></i>
+                <span class="action-text d-none d-md-inline-block">Cart</span>
+                <span class="badge">3</span>
+              </button>
+              <div class="dropdown-menu cart-dropdown-menu">
+                <div class="dropdown-header">
+                  <h6>Shopping Cart (3)</h6>
+                </div>
+                <div class="dropdown-body">
+                  <div class="cart-items">
+                    <!-- Cart Item 1 -->
+                    <div class="cart-item">
+                      <div class="cart-item-image">
+                        <img src="assets/img/product/product-1.webp" alt="Product" class="img-fluid">
+                      </div>
+                      <div class="cart-item-content">
+                        <h6 class="cart-item-title">Wireless Headphones</h6>
+                        <div class="cart-item-meta">1 × $89.99</div>
+                      </div>
+                      <button class="cart-item-remove">
+                        <i class="bi bi-x"></i>
+                      </button>
+                    </div>
+
+                    <!-- Cart Item 2 -->
+                    <div class="cart-item">
+                      <div class="cart-item-image">
+                        <img src="assets/img/product/product-2.webp" alt="Product" class="img-fluid">
+                      </div>
+                      <div class="cart-item-content">
+                        <h6 class="cart-item-title">Smart Watch</h6>
+                        <div class="cart-item-meta">1 × $129.99</div>
+                      </div>
+                      <button class="cart-item-remove">
+                        <i class="bi bi-x"></i>
+                      </button>
+                    </div>
+
+                    <!-- Cart Item 3 -->
+                    <div class="cart-item">
+                      <div class="cart-item-image">
+                        <img src="assets/img/product/product-3.webp" alt="Product" class="img-fluid">
+                      </div>
+                      <div class="cart-item-content">
+                        <h6 class="cart-item-title">Bluetooth Speaker</h6>
+                        <div class="cart-item-meta">1 × $59.99</div>
+                      </div>
+                      <button class="cart-item-remove">
+                        <i class="bi bi-x"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-footer">
+                  <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="cart-total-price">$279.97</span>
+                  </div>
+                  <div class="cart-actions">
+                    <a href="cart.html" class="btn btn-outline-primary">View Cart</a>
+                    <a href="checkout.html" class="btn btn-primary">Checkout</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mobile Navigation Toggle -->
+            <i class="mobile-nav-toggle d-xl-none bi bi-list me-0"></i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="header-nav">
+      <div class="container-fluid container-xl position-relative">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+           
+            
+            
+
+            
+           
+              
+
+             
+
+
+            <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+   
+
+    <!-- Mobile Search Form -->
+    <div class="collapse" id="mobileSearch">
+      <div class="container">
+        <form class="search-form">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for products...">
+            <button class="btn search-btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">About</li>
+          </ol>
+        </nav>
+        <h1>About</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- About 2 Section -->
+    <section id="about-2" class="about-2 section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row mb-lg-5">
+          <span class="text-uppercase small-title mb-2">About Our Company</span>
+          <div class="col-lg-6">
+            <h2 class="about-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</h2>
+          </div>
+          <div class="col-lg-6 description-wrapper">
+            <p class="about-description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="content-card">
+              <div class="card-image">
+                <img src="assets/img/about/about-portrait-16.webp" alt="" class="img-fluid">
+              </div>
+              <div class="card-content">
+                <h3>Ut enim ad minima veniam</h3>
+                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
+                <a href="#" class="read-more">
+                  Explore More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Content Card -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="content-card">
+              <div class="card-image">
+                <img src="assets/img/about/about-portrait-4.webp" alt="" class="img-fluid">
+              </div>
+              <div class="card-content">
+                <h3>Quis autem vel eum iure</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                <a href="#" class="read-more">
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- End Content Card -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="content-card">
+              <div class="card-image">
+                <img src="assets/img/about/about-portrait-1.webp" alt="" class="img-fluid">
+              </div>
+              <div class="card-content">
+                <h3>Nam libero tempore</h3>
+                <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p>
+                <a href="#" class="read-more">
+                  Discover More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End Content Card -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /About 2 Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonials-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "slidesPerView": 1,
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Sed ut perspiciatis unde omnis</h2>
+                    <p>
+                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    </p>
+                    <p>
+                      Beatae magnam dolore quia ipsum. Voluptatem totam et qui dolore dignissimos. Amet quia sapiente laudantium nihil illo et assumenda sit cupiditate. Nam perspiciatis perferendis minus consequatur. Enim ut eos quo.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-m-7.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Saul Goodman</h3>
+                        <span>Client</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-m-7.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Nemo enim ipsam voluptatem</h2>
+                    <p>
+                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    </p>
+                    <p>
+                      Dolorem excepturi esse qui amet maxime quibusdam aut repellendus voluptatum. Corrupti enim a repellat cumque est laborum fuga consequuntur. Dolorem nostrum deleniti quas voluptatem iure dolorum rerum. Repudiandae doloribus ut repellat harum vero aut. Modi aut velit aperiam aspernatur odit ut vitae.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-f-8.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Sara Wilsson</h3>
+                        <span>Designer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-f-8.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>
+                      Labore nostrum eos impedit
+                    </h2>
+                    <p>
+                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    </p>
+                    <p>
+                      Itaque ut explicabo vero occaecati est quam rerum sed. Numquam tempora aut aut quaerat quia illum. Nobis quia autem odit ipsam numquam. Doloribus sit sint corporis eius totam fuga. Hic nostrum suscipit corrupti nam expedita adipisci aut optio.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-m-9.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Matt Brandon</h3>
+                        <span>Freelancer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-m-9.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Impedit dolor facilis nulla</h2>
+                    <p>
+                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    </p>
+                    <p>
+                      Omnis aspernatur accusantium qui delectus praesentium repellendus. Facilis sint odio aspernatur voluptas commodi qui qui qui pariatur. Corrupti deleniti itaque quaerat ipsum deleniti culpa tempora tempore. Et consequatur exercitationem hic aspernatur nobis est voluptatibus architecto laborum.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-f-10.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Jena Karlis</h3>
+                        <span>Store Owner</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-f-10.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Item -->
+
+          </div>
+
+          <div class="swiper-navigation w-100 d-flex align-items-center justify-content-center">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+  </main>
+
+  
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
